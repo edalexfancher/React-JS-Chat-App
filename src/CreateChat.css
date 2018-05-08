@@ -1,0 +1,30 @@
+.CreateChat {
+  color: white;
+  text-align: center;
+}
+
+#join {
+  text-decoration: underline;
+}
+
+input {
+  width: 1rem;
+}
+
+input[type="checkbox"] {
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  background: black;
+  color: white;
+  width: 20%;
+  padding: 0;
+  min-height: 1.3rem;
+  display: inline;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+}

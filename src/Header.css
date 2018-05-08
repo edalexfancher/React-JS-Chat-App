@@ -1,0 +1,13 @@
+header {
+  font-size: 1.6rem;
+  text-align: center;
+  font-family: 'Arial Narrow';
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    font-size: 1.3rem;
+    letter-spacing: 0.6rem;
+  }
+}

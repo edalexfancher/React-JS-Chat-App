@@ -1,0 +1,98 @@
+.Chat-Log {
+  width: 60%;
+  margin: 0 auto;
+  min-width: 20rem;
+  max-height: 70vh;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.Chat-Log ul {
+  width: 95%;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  list-style: none;
+  border-radius: 0.3rem;
+}
+
+.Chat-Log li {
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  min-height: 2rem;
+}
+
+.Chat-Log li:nth-child(odd) {
+  color: white;
+  background: black;
+}
+
+.Chat-Log li:nth-child(even) {
+  background: white;
+  color: black;
+}
+
+.chat-created-at {
+  float: right;
+}
+
+input {
+  width: 40%;
+  min-height: 2rem;
+  margin: 0 auto;
+  min-width: 20rem;
+  display: block;
+  padding: 0;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+button {
+  background: black;
+  color: white;
+  width: 20%;
+  padding: 0;
+  margin: 0 auto;
+  min-height: 1.3rem;
+  display: block;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Arial Narrow';
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.3rem;
+    font-family: 'Arial Narrow';
+    font-weight: 400;
+    letter-spacing: 0.4rem;
+  }
+
+  .Chat-Log {
+    width: 100%;
+    min-width: inherit;
+    max-height: 70vh;
+  }
+
+  .Chat-Log ul {
+    width: 100%;
+    padding: 0;
+  }
+
+  input {
+    margin-top: 1rem;
+    width: 70%;
+  }
+
+  button {
+    display: inline;
+    width: 50%;
+  }
+}
